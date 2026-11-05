@@ -1,20 +1,34 @@
-# Repaso completo — Módulo 3
+# Ruta de estudio — Módulo 3
 
-## 1. Teoría
-1. [Ciclo de desarrollo de software](modulo-3/teoria/01-ciclo-desarrollo-software.md)
-2. [Redes — parte 1](modulo-3/teoria/02-redes-parte-1.md)
-3. [Redes — parte 2](modulo-3/teoria/03-redes-parte-2.md)
-4. [Git y GitHub](modulo-3/teoria/04-git-github-conceptos.md)
+Sigue este orden. Cada apartado enlaza a la explicación o práctica correspondiente.
 
-## 2. Práctica
-1. [JSDoc y Javadoc](modulo-3/practica/01-jsdoc-javadoc.md)
-2. [Git Bash y GitHub: comandos en orden](modulo-3/practica/02-git-github-paso-a-paso.md)
-3. [Desplegar una aplicación](modulo-3/practica/03-desplegar-aplicacion.md)
-4. [Testing Jest y JUnit 5](testing-jest-junit-examen/GUIA-ESTUDIO.md)
-5. [Preguntas y respuestas de testing](testing-jest-junit-examen/RESPUESTAS-EXAMEN.md)
+## Paso 1 — Estudiar la teoría
 
-## 3. Prueba parcial y entrega
-- [Instrucciones y checklist](modulo-3/entrega/PRUEBA-PARCIAL-Y-ENTREGA.md)
-- [Plantillas de logs e historial](modulo-3/entrega/plantillas/)
+1. [Ciclo de desarrollo de software (SDLC)](modulo-3/teoria/01-ciclo-desarrollo-software.md)
+2. [Redes: conceptos básicos, dispositivos y modelo OSI](modulo-3/teoria/02-redes-parte-1.md)
+3. [Redes: TCP/UDP, puertos, HTTP/HTTPS y diagnóstico](modulo-3/teoria/03-redes-parte-2.md)
+4. [Git y GitHub: conceptos principales](modulo-3/teoria/04-git-github-conceptos.md)
 
-Nota: las guías de redes y SDLC son apuntes generales basados en los títulos que compartiste; no son transcripciones de los PowerPoints. Tus notas no detallan las preguntas concretas de teoría de la prueba final.
+## Paso 2 — Hacer las prácticas
+
+1. [JSDoc y Javadoc: documentar código y generar HTML](modulo-3/practica/01-jsdoc-javadoc.md)
+2. [Git Bash y GitHub: comandos en orden, desde cero](modulo-3/practica/02-git-github-paso-a-paso.md)
+3. [Desplegar una aplicación y comprobar su URL](modulo-3/practica/03-desplegar-aplicacion.md)
+4. [Jest y JUnit 5: guía, respuestas, ejercicios y proyectos](modulo-3/practica/04-testing-jest-junit/README.md)
+
+## Paso 3 — Preparar la prueba y la entrega
+
+- [Checklist de la prueba parcial y entrega principal](modulo-3/entrega/PRUEBA-PARCIAL-Y-ENTREGA.md)
+- [Plantillas de logs, historial y URL de publicación](modulo-3/entrega/plantillas/README.md)
+
+## Cómo estudiar cada tema
+
+1. Lee la explicación.
+2. Repite los comandos o el ejemplo sin copiar y pegar.
+3. Cambia los datos del ejemplo y vuelve a ejecutarlo.
+4. Responde las preguntas sin mirar los apuntes.
+5. Comprueba que entiendes qué hace cada comando y por qué lo utilizas.
+
+## Nota sobre el temario
+
+Los apuntes de SDLC y redes son material de repaso general basado en los temas que compartiste. No tenemos las diapositivas originales ni el listado exacto de preguntas de teoría; utiliza también el material facilitado en clase.
