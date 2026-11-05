@@ -1,0 +1,12 @@
+PRÁCTICA GIT — MÓDULO 3
+Repositorio de ejemplo: https://github.com/TU-USUARIO/practica-git-modulo3
+
+1. git init — inicialicé el repositorio local.
+2. git add — preparé archivos.
+3. git commit — guardé cambios en historial.
+4. git switch -c — creé una rama.
+5. git merge — integré una rama.
+6. git remote add origin — conecté GitHub.
+7. git push — subí commits.
+
+Sustituye la URL de ejemplo por tu enlace real.
