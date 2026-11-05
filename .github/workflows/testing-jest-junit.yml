@@ -3,11 +3,11 @@ name: Tests - Jest y JUnit 5
 on:
   push:
     paths:
-      - "testing-jest-junit-examen/**"
+      - "modulo-3/practica/04-testing-jest-junit/**"
       - ".github/workflows/testing-jest-junit.yml"
   pull_request:
     paths:
-      - "testing-jest-junit-examen/**"
+      - "modulo-3/practica/04-testing-jest-junit/**"
       - ".github/workflows/testing-jest-junit.yml"
   workflow_dispatch:
 
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: testing-jest-junit-examen/javascript-jest
+        working-directory: modulo-3/practica/04-testing-jest-junit/javascript-jest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -36,4 +36,4 @@ jobs:
           distribution: temurin
           java-version: "17"
           cache: maven
-      - run: mvn -f testing-jest-junit-examen/java-junit/pom.xml test
+      - run: mvn -f modulo-3/practica/04-testing-jest-junit/java-junit/pom.xml test
