@@ -1,0 +1,9 @@
+{
+  "name": "practica-jest-examen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicios resueltos de preparación de examen con Jest",
+  "main": "src/main.js",
+  "scripts": { "test": "jest --coverage --verbose" },
+  "devDependencies": { "jest": "^29.7.0" }
+}
