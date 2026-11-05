@@ -1,37 +1,49 @@
 # Prueba parcial y entrega principal — Módulo 3
 
-Reorganización de tus instrucciones. En tus notas aparecen **lunes 2 de noviembre** para la entrega y **jueves 5 de noviembre desde las 15:00 en IDEM** para la prueba final. Confirma año y posibles cambios con el profesor.
+Este documento convierte las instrucciones de clase que compartiste en una lista de trabajo. Respeta siempre los nombres y formatos exactos que pida el profesor.
 
-## Prueba parcial (en casa)
+## 1. Prueba parcial en casa
 
-### 1. Hacer Javadoc — 30%
-1. Abre proyecto Java de biblioteca.
-2. Documenta clases, constructores y métodos públicos.
-3. Usa `@param`, `@return`, `@throws`, `@author` cuando proceda.
-4. Genera HTML con Javadoc.
-5. Comprueba `docs/index.html`.
+| Apartado | Peso | Qué tienes que hacer |
+|---|---:|---|
+| Javadoc | 30 % | Documentar el proyecto Java y generar la documentación HTML. |
+| Git Bash | 30 % | Practicar los comandos y generar los archivos de historial. |
+| Publicar aplicación | 40 % | Desplegar la aplicación y comprobar que la URL pública funciona. |
 
-### 2. Comandos Git Bash — 30%
-1. Usa un repositorio de ejemplo separado si quieres.
-2. Ejecuta comandos en orden según la guía.
-3. Genera los tres archivos de log solicitados.
-4. En `history.txt`, incluye enlace al repo de ejemplo.
+### A. Javadoc — 30 %
 
-### 3. Publicar app — 40%
-1. Elige alojamiento apropiado.
-2. Publica.
-3. Comprueba URL pública.
-4. Crea un archivo de texto que contenga únicamente el enlace.
+1. Abre el proyecto Java de biblioteca.
+2. Documenta las clases, constructores y métodos públicos.
+3. Utiliza las etiquetas adecuadas: `@param`, `@return`, `@throws`, `@author`, etc.
+4. Genera la documentación HTML con Javadoc.
+5. Abre `docs/index.html` y comprueba que aparece la documentación.
 
-## Entrega en el REPO PRINCIPAL
-1. **Javadoc y proyecto Java biblioteca.**
-2. **Tres logs y un historial**; el historial incluye enlace al repo de ejemplo.
-3. **Archivo de texto con enlace a la publicación online**; solo el enlace.
+### B. Git Bash — 30 %
 
-Estructura sugerida (ajusta nombres/formato del profesor):
+1. Utiliza un repositorio de ejemplo separado del repositorio principal.
+2. Ejecuta los comandos siguiendo la [guía de Git Bash](../practica/02-git-github-paso-a-paso.md).
+3. Genera los tres archivos de log a partir de tu historial real.
+4. Completa `history.txt` e incluye el enlace real al repositorio de práctica.
+
+### C. Publicar una aplicación — 40 %
+
+1. Identifica qué tipo de aplicación tienes y elige un servicio compatible.
+2. Despliega la aplicación.
+3. Abre la URL pública y comprueba que funciona.
+4. Completa `publicacion.txt` con únicamente la URL, si ese es el formato solicitado.
+
+## 2. Archivos que debe contener el repositorio principal
+
+Según las instrucciones que compartiste:
+
+1. **Proyecto Java de biblioteca y documentación Javadoc generada.**
+2. **Tres archivos de log y un archivo `history.txt`**. El historial debe incluir el enlace al repositorio Git de ejemplo.
+3. **Un archivo de texto con la URL de publicación**. Debe contener solo el enlace si así lo exige el profesor.
+
+Estructura orientativa:
 
 ```text
-repo-principal/
+repositorio-principal/
 ├── biblioteca-java/
 │   ├── src/
 │   └── docs/
@@ -43,17 +55,32 @@ repo-principal/
 └── publicacion.txt
 ```
 
-Nombres de logs son ejemplos; si el profesor facilitó nombres concretos, usa esos.
+Los nombres y carpetas son orientativos. Si el profesor ha proporcionado una estructura concreta, utiliza esa.
 
-## Checklist
-- [ ] Javadoc sin errores.
-- [ ] `docs/index.html` abre.
-- [ ] Proyecto Java biblioteca incluido.
-- [ ] Tres logs en repo principal.
-- [ ] `history.txt` incluye enlace al repo de ejemplo.
-- [ ] `publicacion.txt` contiene solo URL pública.
-- [ ] Cambios subidos a GitHub.
-- [ ] Revisé repo principal online.
+## 3. Checklist antes de entregar
 
-## Prueba final presencial
-Tus notas dejan teoría sin preguntas concretas. Repasa SDLC, redes partes 1 y 2, Git/GitHub y consulta las diapositivas originales.
+- [ ] El proyecto Java de biblioteca está incluido.
+- [ ] Las clases y métodos están documentados.
+- [ ] Javadoc se ha generado sin errores.
+- [ ] `docs/index.html` se abre correctamente.
+- [ ] Los tres logs contienen la salida real de Git.
+- [ ] `history.txt` contiene los comandos realizados y el enlace al repositorio de práctica.
+- [ ] `publicacion.txt` contiene la URL pública correcta.
+- [ ] La aplicación funciona al abrir la URL desde el navegador.
+- [ ] Todos los archivos están subidos al repositorio principal.
+- [ ] He revisado el contenido del repositorio directamente en GitHub.
+
+## 4. Preparación de la prueba final presencial
+
+En el resumen que compartiste aparecen estos temas:
+
+- Ciclo de desarrollo de software (SDLC).
+- Conceptos de redes — parte 1.
+- Conceptos de redes — parte 2.
+- Git y GitHub.
+
+Repasa esos cuatro temas y contrástalos con las diapositivas originales. Los apuntes de este repositorio son una guía general, no una reproducción de las diapositivas.
+
+## 5. Fechas anotadas en tus instrucciones
+
+En las notas aparecen lunes 2 de noviembre para la entrega y jueves 5 de noviembre desde las 15:00 en IDEM para la prueba final. Confirma con el profesor cualquier cambio o el año al que corresponden esas fechas.
