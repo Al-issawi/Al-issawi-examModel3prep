@@ -24,3 +24,7 @@ mvn test
 ```
 
 Requisitos: Node.js/npm, JDK 17+ y Maven.
+
+## Repaso completo del módulo 3
+
+Consulta el índice general: [MODULO-3-INDICE.md](MODULO-3-INDICE.md). Incluye SDLC, redes, conceptos Git/GitHub, JSDoc/Javadoc, comandos Git Bash paso a paso, despliegue, prueba parcial y plantillas de entrega.
