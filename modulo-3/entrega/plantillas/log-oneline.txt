@@ -1,0 +1,1 @@
+Pega aquí la salida de: git log --oneline
